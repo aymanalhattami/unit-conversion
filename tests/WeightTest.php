@@ -9,5 +9,5 @@ it('can test', function () {
 it('can convert kilometer to lbs', function () {
     $lbs = Weight::fromKilograms(100)->toLbs();
 
-    $this->assertEquals(2220.4623, $lbs);
+    $this->assertEquals(220.4623, $lbs);
 });
