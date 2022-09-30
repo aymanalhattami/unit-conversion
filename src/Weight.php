@@ -11,12 +11,12 @@ class Weight
         $this->kilograms = $kilograms;
     }
 
-    public static function fromKilograms(float $kilograms) : self
+    public static function fromKilograms(float $kilograms): self
     {
         return new static($kilograms);
     }
 
-    public function toLbs() : float
+    public function toLbs(): float
     {
         return round($this->kilograms * 2.204623, 4);
     }
