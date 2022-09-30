@@ -3,7 +3,7 @@
 use Aymanalhattami\UnitConversion\Weight;
 
 it('can test', function () {
-    expect(true)->toBeTrue();
+    expect(false)->toBeTrue();
 });
 
 it('can convert kilometer to lbs', function () {
