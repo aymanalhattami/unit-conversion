@@ -2,7 +2,7 @@
 
 namespace Aymanalhattami\UnitConversion;
 
-class Temprature
+class Temperature
 {
     private $celicius;
 
