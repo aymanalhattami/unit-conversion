@@ -16,9 +16,16 @@ composer require aymanalhattami/unit-conversion
 
 ## Usage
 
+> To get Lbs from Kilograms:
+
 ```php
-$skeleton = new Aymanalhattami\UnitConversion();
-echo $skeleton->echoPhrase('Hello, Aymanalhattami!');
+return \Aymanalhattami\UnitConversion\Weight::fromKilograms(52.5)->toLbs(); // 115.7427
+```
+
+> To get Fahrenheit form Celicius:
+
+```php
+return \Aymanalhattami\UnitConversion\Temperature::fromCelicius(22)->toFahrenheit(); // 71.6
 ```
 
 ## Testing
